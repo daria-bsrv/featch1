@@ -6,11 +6,11 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #bee7b4;
+  background-color: #cce7ee;
 }
 
 header {
-  background-color: #57d672;
+  background-color: #e96b8b;
   color: white;
   padding: 1rem;
   text-align: center;
@@ -41,10 +41,14 @@ header {
 
 #author-list li {
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 3px solid #f04687;
+  border-radius: 30%;
   margin-bottom: 5px;
   cursor: pointer;
   transition: background 0.2s;
+}
+#author-list li:hover {
+color: #c92e62;
 }
 
 #author-list li:hover {
@@ -52,7 +56,7 @@ header {
 }
 
 #author-list li.active {
-  background: #86a8e9;
+  background: #f5b4c2;
   font-weight: bold;
 }
 
@@ -84,7 +88,7 @@ header {
 }
 
 .read-more {
-  background: #86a8e9;;
+  background: #f04687ab;;
   border: none;
   padding: 8px 16px;
   border-radius: 4px;
@@ -94,7 +98,7 @@ header {
 }
 
 .read-more:hover {
-  background: #e986dc;;
+  background: #f04687;;
 }
 
 .modal {
